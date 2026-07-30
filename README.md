@@ -1,2 +1,2 @@
-# GuardianAI
-AI Elder Care Agent for Rural Communities
+# Sakhi-AI
+AI agent for pregnant ladies
