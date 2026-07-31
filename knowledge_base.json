@@ -1,0 +1,74 @@
+{
+  "pregnancy_weeks": [
+    {
+      "week": 24,
+      "trimester": 2,
+      "fetal_development": "Baby is around 1.3 pounds and 12 inches long. Taste buds are forming, lungs are developing branch structures.",
+      "maternal_changes": "Uterine growth above navel, mild back aches, potential Braxton Hicks contractions, increased appetite.",
+      "anc_visit_milestone": "Glucose Tolerance Test (GTT) screening for gestational diabetes, blood pressure check, fundal height measurement.",
+      "warning_signs": [
+        "Vaginal bleeding or fluid leaking",
+        "Severe swelling in face/hands",
+        "Persistent severe headache with visual disturbances",
+        "Noticeable reduction in fetal movement"
+      ],
+      "lifestyle_recommendations": [
+        "Sleep on the left side to optimize blood flow",
+        "Perform light pelvic floor (Kegel) exercises",
+        "Stay hydrated (2.5 to 3 liters of water daily)"
+      ]
+    }
+  ],
+  "schemes": [
+    {
+      "scheme_id": "pmmvy",
+      "scheme_name": "Pradhan Mantri Matru Vandana Yojana (PMMVY)",
+      "min_age": 19,
+      "max_income_lpa": 8.0,
+      "state": "ALL",
+      "target_trimester": [1, 2, 3],
+      "eligibility_criteria": [
+        "Pregnant women and lactating mothers for first and second child (if second child is female)",
+        "Must not be in regular employment with Central/State Government or PSUs"
+      ],
+      "benefits_description": "Direct cash transfer of ₹5,000 in two installments upon fulfilling ANC and child vaccination milestones.",
+      "financial_benefit_amount": 5000,
+      "documents_required": [
+        "Identity Proof (Government ID)",
+        "Bank Account Details linked with NPCI/Aadhaar",
+        "MCP Card (Mother and Child Protection Card)",
+        "Pregnancy Registration Certificate"
+      ],
+      "application_steps": [
+        "Register at local Anganwadi Centre (AWC) or ASHA worker unit within 150 days of LMP.",
+        "Submit Form 1-A with MCP card details and bank account proof.",
+        "Receive first installment upon pregnancy registration and minimum 1 ANC checkup."
+      ]
+    },
+    {
+      "scheme_id": "jsy",
+      "scheme_name": "Janani Suraksha Yojana (JSY)",
+      "min_age": 19,
+      "max_income_lpa": 2.5,
+      "state": "ALL",
+      "target_trimester": [3],
+      "eligibility_criteria": [
+        "All pregnant women delivering in public health institutions or accredited private hospitals",
+        "Priority given to BPL/SC/ST households"
+      ],
+      "benefits_description": "Cash assistance for institutional delivery: ₹1,400 (Rural) and ₹1,000 (Urban).",
+      "financial_benefit_amount": 1400,
+      "documents_required": [
+        "BPL Card or Caste Certificate (if applicable)",
+        "MCP Card",
+        "Bank Account Details",
+        "Government Identity Card"
+      ],
+      "application_steps": [
+        "Link with local ASHA worker during 3rd trimester.",
+        "Opt for delivery at an accredited health facility.",
+        "Cash assistance disbursed directly to bank account upon discharge."
+      ]
+    }
+  ]
+}
